@@ -6,3 +6,6 @@ udp-send
 udp-send.exe
 *.o
 *.exe
+.config
+.cproject
+.project
