@@ -7,10 +7,13 @@
        ping back and forth n times to verify that things happen somewhat in order?
        so COMMAND where[192.168.1.2 i.e.] and count
        Merge with windows version
+       Need a way to define WIN or LINUX at compile
 */
+
 #define VERSION_MAJOR 0
-#define VERSION_MINOR 1
-#define  WIN               // WIN for Winsock and BSD for BSD sockets
+#define VERSION_MINOR 2
+//#define  WIN               // WIN for Winsock and BSD for BSD sockets
+
 //Fix that nasty CYGWIN stuff
 #ifdef WIN
 #define __USE_W32_SOCKETS
