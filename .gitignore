@@ -6,5 +6,9 @@ udp-send
 udp-send.exe
 *.o
 *.exe
+<<<<<<< HEAD
+=======
+.config
+>>>>>>> refs/remotes/origin/working
 .cproject
 .project
